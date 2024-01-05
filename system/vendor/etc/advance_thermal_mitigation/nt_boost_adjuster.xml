@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<boost_config>
+    <!--CPU-->
+    <!-- cpu_little_freq="min_freq,max_freq" -->
+    <!-- cpu_little_online="min_online,max_online" -->
+    <!-- cpu_big_freq="min_freq,max_freq" -->
+    <!-- cpu_big_online="min_online,max_online" -->
+    <!-- cpu_prime_freq="min_freq,max_freq" -->
+    <!-- cpu_prime_online="min_online" -->
+    <!-- cpu_little 300 441 556 691 806 940 1056 1132 1228 1324 1440 1555 1670 1804 1920 2016  max online 4-->
+    <!-- cpu_big 633 768 883 998 1113 1209 1324 1440 1555 1651 1766 1881 1996 2112 2227 2342 2457 2572 2649 2745 max online 3-->
+    <!-- cpu_prime 787 921 1036 1171 1286 1401 1536 1651 1766 1881 1996 2131 2246 2361 2476 2592 2707 2822 2918 2995 max online 1-->
+    <!-- average current: 1175mA -->
+    <cpu_config level="1" cpu_little_freq="300,1804" cpu_big_freq="633,2227" cpu_prime_freq="787,2361"/>
+    <!-- average current: 1115mA -->
+    <cpu_config level="2" cpu_little_freq="300,1804" cpu_big_freq="633,2112" cpu_prime_freq="787,2476"/>
+    <!-- average current: 1067mA -->
+    <cpu_config level="3" cpu_little_freq="300,1555" cpu_big_freq="633,1996" cpu_prime_freq="787,2131"/>
+    <!-- average current: 1026mA -->
+    <cpu_config level="4" cpu_little_freq="300,1440" cpu_big_freq="633,1996" cpu_prime_freq="787,1996"/>
+    <!-- average current: 974mA -->
+    <cpu_config level="5" cpu_little_freq="300,1555" cpu_big_freq="633,1766" cpu_prime_freq="787,1881"/>
+    <!-- average current: 953mA -->
+    <cpu_config level="6" cpu_little_freq="300,1804" cpu_big_freq="633,1651" cpu_prime_freq="787,1996"/>
+    <!-- average current: 928mA -->
+    <cpu_config level="7" cpu_little_freq="300,1440" cpu_big_freq="633,1766" cpu_prime_freq="787,2131"/>
+    <!-- average current: 847mA -->
+    <cpu_config level="8" cpu_little_freq="300,1228" cpu_big_freq="633,1555" cpu_prime_freq="787,1651"/>
+    <!-- average current: 824mA -->
+    <cpu_config level="9" cpu_little_freq="300,1132" cpu_big_freq="633,1651" cpu_prime_freq="787,1651"/>
+    <!-- average current: 798mA -->
+    <cpu_config level="10" cpu_little_freq="300,1228" cpu_big_freq="633,1440" cpu_prime_freq="787,1536"/>
+    <!-- average current: 746mA -->
+    <cpu_config level="11" cpu_little_freq="300,1132" cpu_big_freq="633,1440" cpu_prime_freq="787,1766"/>
+    <!-- average current: 689mA -->
+    <cpu_config level="12" cpu_little_freq="300,940" cpu_big_freq="633,1209" cpu_prime_freq="787,1286"/>
+    <!-- average current: 673mA -->
+    <cpu_config level="13" cpu_little_freq="300,940" cpu_big_freq="633,1113" cpu_prime_freq="787,1286"/>
+
+    <!--GPU-->
+    <!-- gpu="min_freq,max_freq" -->
+    <!--900000000 862000000 815000000 765000000 710000000 645000000 580000000 515000000 439000000 364000000 324000000 285000000 220000000-->
+    <gpu_config level="1" gpu="12,0"/>
+    <gpu_config level="2" gpu="12,1"/>
+    <gpu_config level="3" gpu="12,2"/>
+    <gpu_config level="4" gpu="12,3"/>
+    <gpu_config level="5" gpu="12,4"/>
+    <gpu_config level="6" gpu="12,5"/>
+    <gpu_config level="7" gpu="12,6"/>
+    <gpu_config level="8" gpu="12,7"/>
+    <gpu_config level="9" gpu="12,8"/>
+    <gpu_config level="10" gpu="12,9"/>
+    <gpu_config level="11" gpu="12,10"/>
+    <gpu_config level="12" gpu="12,11"/>
+    <gpu_config level="13" gpu="12,12"/>
+
+    <!--DEBUG-->
+    <!-- test_cpu and test_gpu only for debug, if set any value, -->
+    <test_cpu />
+    <test_gpu />
+</boost_config>
