@@ -371,6 +371,17 @@
                 }
             ]
         },
+		{
+            "app_list": "com.nothing.launcher",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 5
+                    }
+				}
+			]
+		},
         {
             "app_list": "com.google.android.apps.restore",
             "level_configs": [
