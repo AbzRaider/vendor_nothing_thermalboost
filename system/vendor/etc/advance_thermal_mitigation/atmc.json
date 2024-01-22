@@ -376,7 +376,7 @@
                 {
                     "level": 5,
                     "unit_configs": {
-                        "cpu": 1
+                        "cpu": 5
                     }
                 }
             ]
