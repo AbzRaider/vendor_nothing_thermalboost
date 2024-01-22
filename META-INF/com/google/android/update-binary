@@ -30,6 +30,8 @@ is_legacy_script() {
 
 print_modname() {
 ui_print ""
+ui_print "   NothingOS Thermal Mitigation Boost Mod for NP2 [PONG]"
+ui_print "     Patching Vendor Unconditionally!  "
 
 }
 
