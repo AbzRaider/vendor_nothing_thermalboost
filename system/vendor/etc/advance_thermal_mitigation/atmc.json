@@ -348,8 +348,10 @@
             "app_list": "com.tencent.ig-com.pubg.imobile",
             "level_configs": [
                 {
-                    "level": ,
+                    "level": 1,
                     "unit_configs": {
+                       "cpu": 14,
+                       "gpu": 14
                     
                     }
                 }
