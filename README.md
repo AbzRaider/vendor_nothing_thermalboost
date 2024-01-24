@@ -38,17 +38,6 @@ The module is optimized for improved performance in the following games:
 
 The thermal throttle clamp levels have been raised from 37°C to 41.5°C, providing a more robust systemwide thermal management.
 
-## Configuration
-
-[Provide instructions on how users can customize or adjust the settings if applicable.]
-
-## Troubleshooting
-
-If you encounter any issues or have questions, please refer to the following:
-
-- [Include a link to a discussion forum or community where users can seek help.]
-- [Add any specific troubleshooting steps.]
-
 ## Credits
 
 Big Thanks to y'all who helped in making of this module.
