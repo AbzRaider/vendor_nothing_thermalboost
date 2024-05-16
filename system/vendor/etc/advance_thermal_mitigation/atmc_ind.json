@@ -7,14 +7,7 @@
                 {
                     "level": 5,
                     "unit_configs": {
-                        "cpu": 1,
-                        "network_speed_limit": 37
-                    }
-                },
-                {
-                    "level": 6,
-                    "unit_configs": {
-                        "network_speed_limit": 39
+                        "cpu": 1
                     }
                 },
                 {
@@ -26,16 +19,14 @@
                 {
                     "level": 8,
                     "unit_configs": {
-                        "cpu": 8,
-                        "network_speed_limit": 41
+                        "cpu": 8
                     }
                 },
                 {
                     "level": 9,
                     "unit_configs": {
                         "cpu": 9,
-                        "brightness": 5,
-                        "network_speed_limit": 43
+                        "brightness": 5
                     }
                 },
                 {
@@ -273,6 +264,23 @@
                     }
                 }
             ]
+        },
+        {
+            "scene": "nearby",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "file_speed_limit": 1
+                    }
+                }
+            ]
         }
     ],
     "apps_config": [
@@ -378,6 +386,12 @@
                     "level": 7,
                     "unit_configs": {
                         "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "network_speed_limit": 1
                     }
                 }
             ]
