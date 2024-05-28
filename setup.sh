@@ -47,7 +47,7 @@ set_permissions() {
 # Set what you want to be displayed on header of installation process.
 info_print() {
   ui_print ""
-  print_title "MMT Reborn" "By @iamlooper @ telegram"
+  print_title "NothingOS Thermal Mitigation Boost Mod for NP2(a) [PACMAN]" "By @AbzRaider"
 }
 
 ############
@@ -57,5 +57,5 @@ info_print() {
 # Change the logic to whatever you want.
 init_main() {
   ui_print ""
-  ui_print "Hello World!"
+  ui_print "Patching Vendor Unconditionally!"
 }
