@@ -1,0 +1,381 @@
+{
+    "version": 1,
+    "scenes_config": [
+        {
+            "scene": "default_scene",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 1
+                    }
+                },
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 3
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 4
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 5,
+                        "brightness": 5
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 6,
+                        "brightness": 6,
+                        "nr_nsa_disable": 1
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "brightness": 10,
+                        "bg_killer" : 2
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "fps": 60
+                    }
+                },
+                {
+                    "level": 13,
+                    "unit_configs": {
+                        "wifi_ap_temperature": 1
+                    }
+                }
+           ]
+        },
+        {
+            "scene": "game",
+            "level_configs": [
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "brightness": 7
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "brightness": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_video_recording",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 3,
+                        "gpu": 6,
+                        "cameraBrightness": 180
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 6,
+                        "gpu": 9,
+                        "cameraBrightness": 120
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 7,
+                        "gpu": 12,
+                        "cameraBrightness": 100,
+                        "lowerRecordingPreviewFps": 1
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10,
+                        "cameraBrightness": 100
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12,
+                        "cameraBrightness": 100
+                    }
+                },
+                {
+                    "level": 14,
+                    "unit_configs": {
+                        "disableCamera": 1
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_photo_preview",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 7
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_video_preview",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 7
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_bokeh_preview",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 7
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "nearby",
+            "level_configs": [
+                {
+                    "level": 6,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "file_speed_limit": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "apps_config": [
+        {
+            "app_list": "org.zwanoo.android.speedtest.gworld-cn.lezhi.speedtest-com.xiaoli.speedtestpro-com.syezon.lab.networkspeed-com.quickbird.speedtestmaster-org.zwanoo.android.speedtest-com.quickbird.speedtest-com.jie.speed-com.andromeda.androbench2-com.primatelabs.geekbench-com.antutu.ABenchMark",
+            "level_configs": [
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "nr_nsa_disable": 1
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.google.android.apps.restore",
+            "level_configs": [
+                {
+                    "level": 6,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "network_speed_limit": 1
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.smartswitch.phoneclone.transfer.data.file.transfer.data.transfer.oldtonewphone",
+            "level_configs": [
+                {
+                    "level": 6,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.pubg.imobile-com.tencent.ig",
+            "level_configs": [
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "brightness": 7
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "brightness": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.zhiliaoapp.musically-com.ss.android.ugc.aweme-com.instagram.android-com.facebook.mlite-com.whatsApp-com.google.android.apps.tachyon-com.snapchat.android-us.zoom.videomeetings-com.tencent.wemeet.app-com.tencent.voov-com.ss.android.lark-com.larksuite.suite-com.microsoft.teams-com.google.android.youtube-com.twitter.android-com.azarlive.android-com.hkfuliao.chamet-com.sgiggle.production",
+            "level_configs": [
+                {
+                    "level": 1,
+                    "unit_configs": {
+                        "cpu": 8
+                    }
+                },
+                {
+                    "level": 3,
+                    "unit_configs": {
+                        "cpu": 9
+                    }
+                },
+                {
+                    "level": 4,
+                    "unit_configs":{
+                        "cpu": 11
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs":{
+                        "brightness": 5
+                    }
+                },
+                {
+                    "level":10,
+                    "unit_configs":{
+                        "brightness": 8
+                    }
+                },
+                {
+                    "level":11,
+                    "unit_configs":{
+                        "cpu":12,
+                        "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.ss.android.ugc.aweme",
+            "level_configs": [
+                {
+                    "level": 1,
+                    "unit_configs": {
+                        "cpu": 8
+                    }
+                },
+                {
+                    "level": 3,
+                    "unit_configs": {
+                        "cpu": 9
+                    }
+                },
+                {
+                    "level": 4,
+                    "unit_configs":{
+                        "cpu": 11
+                    }
+                },
+                {
+                    "level": 6,
+                    "unit_configs":{
+                        "brightness": 5
+                    }
+                },
+                {
+                    "level": 7,
+                    "unit_configs":{
+                        "brightness": 6
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs":{
+                        "brightness": 7
+                    }
+                },
+                {
+                    "level":10,
+                    "unit_configs":{
+                        "brightness": 8
+                    }
+                },
+                {
+                    "level":11,
+                    "unit_configs":{
+                        "cpu":12,
+                        "brightness": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

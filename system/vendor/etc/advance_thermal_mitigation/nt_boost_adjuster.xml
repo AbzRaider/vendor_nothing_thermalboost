@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<boost_config>
+    <!--CPU-->
+    <!-- cpu_little_freq="min_freq,max_freq" -->
+    <!-- cpu_little_online="min_online,max_online" -->
+    <!-- cpu_big_freq="min_freq,max_freq" -->
+    <!-- cpu_big_online="min_online,max_online" -->
+    <!-- cpu_little 2000000 1950000 1900000 1850000 1800000 1750000 1700000 1650000 1600000 1550000 1500000 1450000 1400000 1350000 1300000 1250000 1200000 1150000 1100000 1050000 950000 850000 750000 650000 550000 480000  max online 6-->
+    <!-- cpu_big 2800000 2700000 2600000 2500000 2400000 2300000 2200000 2100000 2000000 1900000 1800000 1700000 1600000 1500000 1400000 1300000 1200000 1100000 1000000 900000 800000 700000 600000 500000 400000 max online 2-->
+    <!-- 1045ma -->
+    <cpu_config level="1" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2700000"/>
+    <!-- 964ma -->
+    <cpu_config level="2" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2600000"/>
+    <!-- 887ma -->
+    <cpu_config level="3" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2500000"/>
+    <!-- 840ma -->
+    <cpu_config level="4" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2400000"/>
+    <!-- 783ma -->
+    <cpu_config level="5" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2300000"/>
+    <!-- 732ma -->
+    <cpu_config level="6" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2200000"/>
+    <!-- 671ma -->
+    <cpu_config level="7" cpu_little_freq="480000,2000000" cpu_big_freq="400000,2100000"/>
+    <!-- 611ma -->
+    <cpu_config level="8" cpu_little_freq="480000,1900000" cpu_big_freq="400000,2000000"/>
+    <!-- 562ma -->
+    <cpu_config level="9" cpu_little_freq="480000,1800000" cpu_big_freq="400000,1900000"/>
+    <!-- 501ma -->
+    <cpu_config level="10" cpu_little_freq="480000,1650000" cpu_big_freq="400000,1800000"/>
+    <!-- 455ma -->
+    <cpu_config level="11" cpu_little_freq="480000,1550000" cpu_big_freq="400000,1700000"/>
+    <!-- 434ma -->
+    <cpu_config level="12" cpu_little_freq="480000,1550000" cpu_big_freq="400000,1600000"/>
+    <!-- 387ma -->
+    <cpu_config level="13" cpu_little_freq="480000,1450000" cpu_big_freq="400000,1500000"/>
+    <!-- 354ma -->
+    <cpu_config level="14" cpu_little_freq="480000,1350000" cpu_big_freq="400000,1400000"/>
+    <!-- 347ma -->
+    <cpu_config level="15" cpu_little_freq="480000,1250000" cpu_big_freq="400000,1300000"/>
+    <!-- 319ma -->
+    <cpu_config level="16" cpu_little_freq="480000,1150000" cpu_big_freq="400000,1200000"/>
+    <!-- 287ma -->
+    <cpu_config level="17" cpu_little_freq="480000,1050000" cpu_big_freq="400000,1000000"/>
+
+    <!--GPU-->
+    <!-- gpu="min_freq,max_freq" -->
+    <!--1130000000 1115000000 1100000000 1085000000 1070000000 1055000000 1040000000 1025000000 1010000000 995000000 980000000 965000000
+        950000000 935000000 920000000 905000000 890000000 872000000 854000000 836000000 818000000 800000000 782000000 764000000 746000000
+        728000000 710000000 692000000 675000000 655000000 635000000 615000000 596000000 576000000 556000000 537000000 517000000 497000000 478000000
+        458000000 438000000 419000000 399000000 379000000 360000000-->
+    <gpu_config level="1" gpu="44,0"/>
+    <gpu_config level="2" gpu="44,1"/>
+    <gpu_config level="3" gpu="44,2"/>
+    <gpu_config level="4" gpu="44,3"/>
+    <gpu_config level="5" gpu="44,4"/>
+    <gpu_config level="6" gpu="44,5"/>
+    <gpu_config level="7" gpu="44,6"/>
+    <gpu_config level="8" gpu="44,7"/>
+    <gpu_config level="9" gpu="44,8"/>
+    <gpu_config level="10" gpu="44,9"/>
+    <gpu_config level="11" gpu="44,10"/>
+    <gpu_config level="12" gpu="44,11"/>
+    <gpu_config level="13" gpu="44,12"/>
+    <gpu_config level="14" gpu="44,13"/>
+    <gpu_config level="15" gpu="44,14"/>
+    <gpu_config level="16" gpu="44,15"/>
+    <gpu_config level="17" gpu="44,16"/>
+    <gpu_config level="18" gpu="44,17"/>
+    <gpu_config level="19" gpu="44,18"/>
+    <gpu_config level="20" gpu="44,19"/>
+    <gpu_config level="21" gpu="44,20"/>
+    <gpu_config level="22" gpu="44,21"/>
+    <gpu_config level="23" gpu="44,22"/>
+    <gpu_config level="24" gpu="44,23"/>
+    <gpu_config level="25" gpu="44,24"/>
+    <gpu_config level="26" gpu="44,25"/>
+    <gpu_config level="27" gpu="44,26"/>
+    <gpu_config level="28" gpu="44,27"/>
+    <gpu_config level="29" gpu="44,28"/>
+    <gpu_config level="30" gpu="44,29"/>
+    <gpu_config level="31" gpu="44,30"/>
+    <gpu_config level="32" gpu="44,31"/>
+    <gpu_config level="33" gpu="44,32"/>
+    <gpu_config level="34" gpu="44,33"/>
+    <gpu_config level="35" gpu="44,34"/>
+    <gpu_config level="36" gpu="44,35"/>
+    <gpu_config level="37" gpu="44,36"/>
+    <gpu_config level="38" gpu="44,37"/>
+    <gpu_config level="39" gpu="44,38"/>
+    <gpu_config level="40" gpu="44,39"/>
+    <gpu_config level="41" gpu="44,40"/>
+    <gpu_config level="42" gpu="44,41"/>
+    <gpu_config level="43" gpu="44,42"/>
+    <gpu_config level="44" gpu="44,43"/>
+    <gpu_config level="45" gpu="44,44"/>
+
+    <!--DEBUG-->
+    <!-- test_cpu and test_gpu only for debug, if set any value, -->
+    <test_cpu />
+    <test_gpu />
+</boost_config>
