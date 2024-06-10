@@ -41,6 +41,8 @@
     <cpu_config level="16" cpu_little_freq="480000,1150000" cpu_big_freq="400000,1200000"/>
     <!-- 287ma -->
     <cpu_config level="17" cpu_little_freq="480000,1050000" cpu_big_freq="400000,1000000"/>
+    <!-- 1205ma -->
+    <cpu_config level="18" cpu_little_freq="750000,2000000" cpu_big_freq="120000,2800000"/>
 
     <!--GPU-->
     <!-- gpu="min_freq,max_freq" -->
@@ -93,6 +95,8 @@
     <gpu_config level="43" gpu="44,42"/>
     <gpu_config level="44" gpu="44,43"/>
     <gpu_config level="45" gpu="44,44"/>
+    <!--Level 46 Min GPU Clock 920Mhz-->
+    <gpu_config level="46" gpu="14,0"/>
 
     <!--DEBUG-->
     <!-- test_cpu and test_gpu only for debug, if set any value, -->
