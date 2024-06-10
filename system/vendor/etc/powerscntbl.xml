@@ -130,8 +130,8 @@
         <data cmd="PERF_RES_FPS_FSTBV2_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_RESCUE_SECOND_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FRS_ENABLE" param1="1"></data>
-        <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="46500"></data>
-        <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+        <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
         <data cmd="PERF_RES_FPS_FBT_FILTER_FRAME_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_SEPARATE_RELEASE_SEC_BY_PID" param1="1"></data>

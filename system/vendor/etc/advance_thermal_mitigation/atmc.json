@@ -54,29 +54,6 @@
            ]
         },
         {
-            "scene": "game",
-            "level_configs": [
-                {
-                    "level": 9,
-                    "unit_configs": {
-                        "brightness": 7
-                    }
-                },
-                {
-                    "level": 10,
-                    "unit_configs": {
-                        "brightness": 8
-                    }
-                },
-                {
-                    "level": 11,
-                    "unit_configs": {
-                        "brightness": 10
-                    }
-                }
-            ]
-        },
-        {
             "scene": "ntcamera_video_recording",
             "level_configs": [
                 {
@@ -254,29 +231,6 @@
             ]
         },
         {
-            "app_list": "com.pubg.imobile-com.tencent.ig",
-            "level_configs": [
-                {
-                    "level": 9,
-                    "unit_configs": {
-                        "brightness": 7
-                    }
-                },
-                {
-                    "level": 10,
-                    "unit_configs": {
-                        "brightness": 8
-                    }
-                },
-                {
-                    "level": 11,
-                    "unit_configs": {
-                        "brightness": 10
-                    }
-                }
-            ]
-        },
-        {
             "app_list": "com.zhiliaoapp.musically-com.ss.android.ugc.aweme-com.instagram.android-com.facebook.mlite-com.whatsApp-com.google.android.apps.tachyon-com.snapchat.android-us.zoom.videomeetings-com.tencent.wemeet.app-com.tencent.voov-com.ss.android.lark-com.larksuite.suite-com.microsoft.teams-com.google.android.youtube-com.twitter.android-com.azarlive.android-com.hkfuliao.chamet-com.sgiggle.production",
             "level_configs": [
                 {
@@ -314,6 +268,19 @@
                     "unit_configs":{
                         "cpu":12,
                         "brightness": 10
+                    }
+                }
+            ]
+        },
+{
+            "app_list": "com.tencent.ig-com.pubg.imobile",
+            "level_configs": [
+                {
+                    "level": 1,
+                    "unit_configs": {
+                        "cpu": 18,
+                        "gpu": 46
+                    
                     }
                 }
             ]
