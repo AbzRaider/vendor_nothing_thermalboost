@@ -232,6 +232,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -273,6 +276,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -314,6 +320,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data> 
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                   
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -355,6 +364,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                    
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -408,7 +420,10 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                     <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
-                    <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>                    
+                    <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>   
+                    <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                                    
                 </WINDOW>
             </FPS>
             <FPS value="60">
