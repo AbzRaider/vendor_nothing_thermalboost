@@ -142,6 +142,31 @@
           "disableSv": true
         },
         {
+          "package": "com.tencent.ig",
+          "rate": "90,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.pubg.imobile",
+          "rate": "90,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.pubg.krmobile",
+          "rate": "90,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.vng.pubgmobile",
+          "rate": "90,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.tencent.igce",
+          "rate": "90,120,60",
+          "disableSv": true
+        },
+        {
           "package": "com.google.android.apps.nbu.paisa.user",
           "rate": "120,120,60",
           "disableSv": true
