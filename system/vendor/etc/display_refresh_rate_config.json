@@ -167,6 +167,16 @@
           "disableSv": true
         },
         {
+          "package": "com.mobile.legends",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.vng.mlbbvn",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
           "package": "com.google.android.apps.nbu.paisa.user",
           "rate": "120,120,60",
           "disableSv": true
