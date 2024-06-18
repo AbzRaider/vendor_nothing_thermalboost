@@ -229,6 +229,7 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -267,6 +268,7 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -305,6 +307,7 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -340,6 +343,7 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -391,6 +395,7 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
                     <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_MARGIN_MODE_GPU" param1="2"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
