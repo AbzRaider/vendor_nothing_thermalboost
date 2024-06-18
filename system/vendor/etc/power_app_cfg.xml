@@ -224,6 +224,11 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
                     <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
                     <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -257,6 +262,11 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
                     <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
                     <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -290,6 +300,11 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
                     <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
                     <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -320,6 +335,11 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
                     <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
                     <data cmd="PERF_RES_THERMAL_POLICY" param1="1"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -366,6 +386,11 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
                     <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
                     <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="50000"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
