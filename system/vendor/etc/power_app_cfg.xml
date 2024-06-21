@@ -235,6 +235,8 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
                     <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                    <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -279,6 +281,8 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
                     <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                    <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -322,7 +326,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data> 
-                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                   
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                    <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>                   
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -366,7 +372,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
-                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                    
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                    <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>                    
                 </WINDOW>
             </FPS>
             <FPS value="60">
@@ -423,7 +431,9 @@ any software that is unrelated to enhancing end-user experience. -->
                     <data cmd="PERF_RES_FPS_FPSGO_BOOST_AFFINITY" param1="3"></data>   
                     <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
                     <data cmd="PERF_RES_DRAM_CM_MGR_AGGRESSIVE" param1="2"></data>
-                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>                                    
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                    <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>                                    
                 </WINDOW>
             </FPS>
             <FPS value="60">
