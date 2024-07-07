@@ -1,0 +1,27 @@
+#! /bin/sh
+#
+#Copyright (c) 2021 Qualcomm Technologies, Inc.
+#All Rights Reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+service thermal-engine /vendor/bin/thermal-engine-v2
+	class main
+	user root
+	group root
+	socket thermal-send-client stream 0660 system oem_2907
+	socket thermal-recv-client stream 0660 system oem_2907
+	socket thermal-recv-passive-client stream 0660 system oem_2907
+	socket thermal-send-rule stream 0660 system oem_2907
+
+on property:sys.boot_completed=1
+	restart thermal-engine
+
+# jay.fan, 2023/01/30, [TFT-692] thermal engine scene strategy
+on property:persist.vendor.thermal.config=*
+        restart thermal-engine
+
+# jay.fan, 2023/02/08 [TFT-1106] Optimize the init rc script for thermal-engine
+on property:sys.system_server.thermal.config=*
+        setprop persist.vendor.thermal.config /vendor/etc/thermal.${sys.system_server.thermal.config}.conf
+
+
