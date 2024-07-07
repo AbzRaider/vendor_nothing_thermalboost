@@ -1,0 +1,2 @@
+sys.system_server.thermal.config=mid
+persist.vendor.thermal.config /vendor/etc/thermal.mid.conf
