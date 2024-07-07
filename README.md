@@ -7,7 +7,7 @@ This Magisk module is tailored for the Nothing Phone 2, enhancing systemwide per
 ## Features
 
 - **Optimized Thermal Settings**: Fine-tuned thermal parameters for enhanced performance in games like BGMI and PUBG Mobile GLOBAL.
-- **Improved Thermal Throttle Clamp Levels**: Systemwide enhancement to delay thermal throttling, raising the clamp levels from 37°C to 41.5°C.
+- **Improved Thermal Throttle Clamp Levels**: Systemwide enhancement to delay thermal throttling, raising the clamp levels from 37ï¿½C to 41.5ï¿½C.
 - **Magisk Compatibility**: Seamless integration into your device's root environment through Magisk.
 - **KernelSU Compatibility**: Now also supports KernelSU (KSU) for broader compatibility.
 
@@ -34,10 +34,10 @@ The module is optimized for improved performance in the following games:
 
 - Mobile Legends (ALL Regions)
 - PUBG Mobile (ALL Regions)
-
+- CarX Drift Racing 2
 ## Systemwide Thermal Enhancement
 
-The thermal throttle clamp levels have been raised from 37°C to 41.5°C, providing a more robust systemwide thermal management.
+The thermal throttle clamp levels have been raised from 37ï¿½C to 41.5ï¿½C, providing a more robust systemwide thermal management.
 
 ## Configuration
 
@@ -82,6 +82,12 @@ Big thanks to everyone who helped in the making of this module.
   - Added 120Hz Support for Mobile Legends (ALL Regions)
   - Updated Module Installer
   - Added Game Boost Support for the above-mentioned 120Hz titles
+
+* v2.0.0
+   -----
+* Fixed NOS 2.5.6 Performance Regression Issue
+* Added Supoort for CarX Drift Racing 2
+* Fixed Magisk Compatibility
 
 ## Feedback
 
