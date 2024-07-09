@@ -396,5 +396,36 @@
                 }
             ]
         }
+    ],
+    "complex_config": [
+        {
+            "complex": "game_performance|game",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                },
+                {
+                    "level": 6,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 7
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        }
     ]
 }
