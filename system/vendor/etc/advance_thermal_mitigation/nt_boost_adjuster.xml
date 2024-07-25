@@ -38,6 +38,8 @@
     <cpu_config level="13" cpu_little_freq="300,940" cpu_big_freq="633,1113" cpu_prime_freq="787,1286"/>
     <!-- average current: 1290mA --> <!-- 2024.01.16/AbzRaider: These CPU Frequency configs are for best gaming performance stability as per testing --> 
     <cpu_config level="14" cpu_little_freq="300,1804" cpu_big_freq="883,2227" cpu_prime_freq="1651,2476"/>
+        <!-- average current: 1500mA --> <!-- 2024.07.25/AbzRaider: These CPU Frequency configs are for maximum performance mode when there is thermal headroom availiable to the device -->
+    <cpu_config level="15" cpu_little_freq="1132,1804" cpu_big_freq="1209,2745" cpu_prime_freq="1401,2995"/>
 
     <!--GPU-->
     <!-- gpu="min_freq,max_freq" -->
@@ -57,6 +59,8 @@
     <gpu_config level="13" gpu="12,12"/>
     <!-- 2024.01.16/AbzRaider: Lock Min GPU Freq to 645MHz on level 15 as A14 doesnt handle GPU DVFS Scaling properly on games, Causing the freq to stay at 220Mhz. 645 Mhz is stable on this GPU and is not too much power hungry --> 
     <gpu_config level="14" gpu="5,0"/>
+    <!-- 2024.07.25/AbzRaider: These GPU Frequency configs are for maximum performance mode when there is thermal headroom availiable to the device -->
+    <gpu_config level="15" gpu="0,0"/>
     <!--DEBUG-->
     <!-- test_cpu and test_gpu only for debug, if set any value, -->
     <test_cpu />
