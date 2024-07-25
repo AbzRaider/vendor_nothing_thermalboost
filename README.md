@@ -43,6 +43,8 @@ The thermal throttle clamp levels have been raised from 37�C to 41.5�C, prov
 
 For PUBG Mobile, you can set the 120Hz Mode by selecting the High option in the display refresh rate settings and 90Hz by choosing the Dynamic mode.
 
+Enable Performance Mode from NOS Game Bar if you got extra thermal headroom 
+
 ## Troubleshooting
 
 If you encounter any issues or have questions, please refer to the following:
@@ -83,11 +85,12 @@ Big thanks to everyone who helped in the making of this module.
   - Updated Module Installer
   - Added Game Boost Support for the above-mentioned 120Hz titles
 
-* v2.0.0
+* v2.5.0
    -----
-* Fixed NOS 2.5.6 Performance Regression Issue
-* Added Supoort for CarX Drift Racing 2
-* Fixed Magisk Compatibility
+* Added NOS 2.6.0 Support
+* Perfomance Mode from Game Bar Now Unlocks 3Ghz on CPU and 900Mhz on GPU on all apps you enable it.
+* Retained A13 Compatibility
+
 
 ## Feedback
 
