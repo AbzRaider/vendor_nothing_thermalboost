@@ -216,16 +216,41 @@
                     }
                 }
             ]
+        },
+        {
+            "scene": "game_performance",
+            "level_configs": [
+                {
+                    "level": 4,
+                    "unit_configs": {
+                        "cpu": 0,
+                        "gpu": 0,
+                        "thermal_disable": 1
+                    }
+                }
+            ]
         }
     ],
     "apps_config": [
         {
-            "app_list": "org.zwanoo.android.speedtest.gworld-cn.lezhi.speedtest-com.xiaoli.speedtestpro-com.syezon.lab.networkspeed-com.quickbird.speedtestmaster-org.zwanoo.android.speedtest-com.quickbird.speedtest-com.jie.speed-com.andromeda.androbench2-com.primatelabs.geekbench-com.antutu.ABenchMark",
+            "app_list": "org.zwanoo.android.speedtest.gworld-cn.lezhi.speedtest-com.xiaoli.speedtestpro-com.syezon.lab.networkspeed-com.quickbird.speedtestmaster-org.zwanoo.android.speedtest-com.quickbird.speedtest-com.jie.speed-com.primatelabs.geekbench",
             "level_configs": [
                 {
                     "level": 11,
                     "unit_configs": {
                         "nr_nsa_disable": 1
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.miHoYo.GenshinImpact-com.miHoYo.Yuanshen-com.miHoYo.yuanshencb-com.miHoYo.enterprise.HK4E",
+            "level_configs": [
+                {
+                    "level": 4,
+                    "unit_configs": {
+                        "cpu": 0,
+                        "thermal_disable": 0
                     }
                 }
             ]
@@ -373,6 +398,40 @@
                     "unit_configs":{
                         "cpu":12,
                         "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.antutu.benchmark.full-com.primatelabs.geekbench5.corporate-com.primatelabs.geekbench5-com.primatelabs.geekbench4.corporate-com.primatelabs.geekbench6.corporate-com.primatelabs.geekbench6-net.kishonti.gfxbench.v50000.corporate-skynet.cputhrottlingtest-com.futuremark.dmandroid.application",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.antutu.ABenchMark-com.andromeda.androbench2",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "nr_nsa_disable": 0
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "nr_nsa_disable": 1
                     }
                 }
             ]
