@@ -37,6 +37,7 @@ REPLACE=""
 # Set permissions.
 set_permissions() {
  set_perm "$MODPATH/system/vendor/etc/init/init_thermal-engine-v2.rc" 0 0 0755
+ set_perm "$MODPATH/system/vendor/etc/thermal.mid.conf" 0 0 0755
   set_perm_recursive "$MODPATH/system" 0 0 0777 0755
 }
 
