@@ -1,3 +1,4 @@
+
 # Thermal Mitigation Boost Magisk Module for Nothing Phone 2
 
 ## Description
@@ -95,3 +96,8 @@ Big thanks to everyone who helped in the making of this module.
 ## Feedback
 
 If you want more games to be added, tag me in the group with the app package name.
+
+## Credits for Module Template
+
+
+- [MMT Extended](https://github.com/Zackptg5/MMT-Extended) (GNU General Public License v2.0)
