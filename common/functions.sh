@@ -33,6 +33,10 @@ setup_native_libs() {
 # Don't install module if not in boot mode
 "$BOOTMODE" || abort "- Installation not supported in recovery!"
 
+# Print Title
+
+print_title "NothingOS Thermal Mitigation Boost Mod for NP2 [PONG]" "By @AbzRaider"
+
 # Extract files
 ui_print "- Extracting module files"
 unzip -o "$ZIPFILE" -x 'META-INF/*' 'common/functions.sh' -d $MODPATH >&2
@@ -41,7 +45,7 @@ unzip -o "$ZIPFILE" -x 'META-INF/*' 'common/functions.sh' -d $MODPATH >&2
 "$SKIPMOUNT" && touch "$MODPATH/skip_mount"
 
 # Install
-ui_print "- Installing"
+ui_print "- Installing Vendor Patches"
 [ -f "$MODPATH/common/install.sh" ] && . $MODPATH/common/install.sh
 
 # Set permissions
