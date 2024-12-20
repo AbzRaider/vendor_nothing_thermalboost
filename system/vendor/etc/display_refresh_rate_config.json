@@ -127,6 +127,16 @@
           "disableSv": true
         },
         {
+          "package": "com.android.systemui",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.nothing.wallpaper",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
           "package": "com.tencent.mm",
           "rate": "90,120,60",
           "disableSv": true
@@ -143,6 +153,36 @@
         },
         {
           "package": "com.google.android.apps.nbu.paisa.user",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.tencent.ig",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.rekoo.pubgm",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.vng.pubgmobile",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.pubg.krmobile",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.tencent.igce",
+          "rate": "120,120,60",
+          "disableSv": true
+        },
+        {
+          "package": "com.pubg.imobile",
           "rate": "120,120,60",
           "disableSv": true
         },
