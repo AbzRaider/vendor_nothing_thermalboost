@@ -158,32 +158,32 @@
         },
         {
           "package": "com.tencent.ig",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {
           "package": "com.rekoo.pubgm",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {
           "package": "com.vng.pubgmobile",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {
           "package": "com.pubg.krmobile",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {
           "package": "com.tencent.igce",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {
           "package": "com.pubg.imobile",
-          "rate": "120,120,60",
+          "rate": "90,90,60",
           "disableSv": true
         },
         {

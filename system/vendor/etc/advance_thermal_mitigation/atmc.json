@@ -322,7 +322,7 @@
             ]
         },
         {
-            "app_list": "com.gameloft.android.ANMP.GloftA9HM-com.tencent.ig-com.pubg.imobile",
+            "app_list": "com.gameloft.android.ANMP.GloftA9HM",
             "level_configs": [
                 {
                     "level": 7,
@@ -342,6 +342,30 @@
                         "cpu": 12
                     }
                 }
+            ]
+        },
+        {
+            "app_list": "com.tencent.ig-com.pubg.imobile",
+            "level_configs": [
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 1
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 4
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10,
+                        "fps": 60
+                    }
+                },
             ]
         },
         {
