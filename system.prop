@@ -1,2 +1,9 @@
 sys.system_server.thermal.config=mid
-persist.vendor.thermal.config /vendor/etc/thermal.mid.conf
+persist.vendor.thermal.config=/vendor/etc/thermal.mid.conf
+
+#HWUI
+debug.hwui.use_gpu_pixel_buffers=true
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+renderthread.skia.reduceopstasksplitting=true
+debug.hwui.skip_eglmanager_telemetry=true
