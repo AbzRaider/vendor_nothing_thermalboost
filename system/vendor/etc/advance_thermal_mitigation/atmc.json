@@ -352,6 +352,7 @@
                     "unit_configs": {
                        "cpu": 14,
                        "gpu": 14
+					   "bg_killer" : 0
                     
                     }
                 }
@@ -407,8 +408,20 @@
                     "unit_configs": {
                         "cpu": 15,
                         "gpu": 15
+						"bg_killer" : 0
                     }
-                }
+                },
+				{
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 10,
+                        "gpu": 10
+						"brightness": 10,
+                        "bg_killer" : 2
+						"fps": 60
+						
+                    }
+				}
             ]
         }
     ]
