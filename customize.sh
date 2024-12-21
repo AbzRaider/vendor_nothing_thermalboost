@@ -29,6 +29,14 @@ REPLACE=""
 set_permissions() {
   set_perm "$MODPATH/system/bin/placeholder" 0 0 0755
   set_perm_recursive "$MODPATH/system" 0 0 0777 0755
+  chcon u:object_r:vendor_configs_file:s0 $MODPATH/system/vendor/etc/advance_thermal_mitigation/display_refresh_rate_config.json
+  chcon u:object_r:vendor_configs_file:s0 $MODPATH/system/vendor/etc/advance_thermal_mitigation/atmc.json
+  chcon u:object_r:vendor_configs_file:s0 $MODPATH/system/vendor/etc/advance_thermal_mitigation/atmc_ind.json
+  chcon u:object_r:vendor_configs_file:s0 $MODPATH/system/vendor/etc/advance_thermal_mitigation/nt_boost_adjuster.xml
+  chcon u:object_r:vendor_configs_file:s0 $MODPATH/system/vendor/etc/thermal.mid.conf
+  
+
+
 }
 
 #######
