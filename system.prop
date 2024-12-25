@@ -7,3 +7,6 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skip_eglmanager_telemetry=true
+
+# SF
+ro.surface_flinger.uclamp.min=180
